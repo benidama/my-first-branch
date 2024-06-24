@@ -10,6 +10,16 @@ const Git = () => {
 
        Git is used to collaborate on code.
     </p>
+    <pre>
+      <strong>
+      All about GitHub & git 
+
+1. To go to any branch (git checkout its name)
+2. To create a new branch(got checkout -b  its name)
+3. Renaming branch (git branch -m new name)
+4. Deleting branch ( first go to main branch by git checkout main then git pull in order to save all changes. Then delete the git branch -D name of branch you want to delete)
+</strong>
+</pre>
     </div>
   )
 }
