@@ -4,7 +4,8 @@ import Floowus from './Floowus'
 const Contact = () => {
   return (
     <div>
-        <h1>Contact</h1>
+        <h1>Contactus here in order to know more aboutus</h1>
+        <p>Yu can contactus through email, whatsapp, IG, X  and so on</p>
         <Floowus/>
     </div>
   )
