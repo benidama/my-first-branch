@@ -3,8 +3,8 @@ import React from 'react'
 const Floowus = () => {
   return (
     <div>
-        <p>
-            Tel:0781984294 
+        <p className='text-center'>
+            Tel:0781984294 <br/>
             IG:benidama
         </p>
     </div>
