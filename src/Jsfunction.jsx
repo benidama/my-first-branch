@@ -2,12 +2,14 @@ import React from 'react'
 
 const Jsfunction = () => {
     let ames = ['Joni','Quintus','Aime'];
-    document.getElementById('try').innerHTML = 'Somehow good!'
+
   return (
-    <div>
-        <h1>Learning how write Js functions.</h1> 
-        <p id='try'>Ok</p>
-        <nav><li>{ames}</li></nav>
+    <div className='container'>
+        <h3>Learning how write Js functions.</h3> 
+        
+        <p>{ames[0]} is a good person in all sides. <br/>
+         {ames[1]} is the best one in school.<br/>
+          {ames[2]} has biggest number of clients in our company.</p>
      </div>
   )
 }
