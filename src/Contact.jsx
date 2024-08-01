@@ -1,25 +1,18 @@
 import React from 'react'
-import logo from './logo.svg';
 import Floowus from './Floowus'
 
 const Contact = () => {
   return (
     <div>
-        <h1 className='container'> Here, you can get our Contacts easily.</h1>
-        <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <h1 className='text-center'> CONTACT ME</h1>
+        <p className='container'>
+          I'm always looking foropportunities to expand upon my skills and 
+          am currently seeking a full-time or part-time junior web developer position or internship.
+          I'd also love to hear from you if you have any questions, are looking to network,
+          or would like to chat about any projects I can help with.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+    
         <Floowus/>
     </div>
   )

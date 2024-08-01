@@ -1,25 +1,18 @@
 import React from 'react'
-import logo from './logo.svg';
 import Jsfunction from './Jsfunction'
 
 const Blogs = () => {
   return (
     <div>
-        <h1 className='container'> This section of Blogs helps us to get supports </h1>
-        <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <h1 className='text-center'> About me </h1>
+        
+        <p className='container'>
+        I am a web developer.
+        I focus on building web applications, and android applications using JavaScript language, and its technologies like NodeJs, React, React Native, and Redux. 
+        I like coding and I am very passionate about it. 
+        Whenever I have free time I play guitar and enjoy classic music, reading books mostly those talking about technology, and business.
+        I am passionate about what I do and a big fun of delivering quality work and learning more skills
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
         <Jsfunction/>
     </div>
   )
