@@ -3,7 +3,7 @@ import React from 'react'
 const Git = () => {
   return (
     <div className='container text-center'>
-      <img src="1612200918157.jpg" alt="My image" />
+      <img src="1612200918157.jpg" alt="My profile" />
     <h3>We are learning git and githup</h3>
     <p>Git is a version control system. <br />
 
