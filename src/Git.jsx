@@ -21,7 +21,11 @@ const Git = () => {
 4. Deleting branch ( first go to main branch by git checkout main then git pull in order to save all changes. Then delete the git branch -D name of branch you want to delete)
 </strong>
 </pre>
-    </div>
+<p>
+  How do you do myfriends?
+  Is only my love song in 2024.
+  </p>    
+  </div>
   )
 }
 
