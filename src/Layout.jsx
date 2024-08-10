@@ -15,6 +15,12 @@ const Layout = () => {
           <li className='nav-item'>
             <Link className='nav-link text-info' to="/contact">Contact</Link>
           </li>
+          <li className='nav-item'>
+            <Link className='nav-link text-info' to="/projects">Projects</Link>
+          </li>
+          <li className='nav-item'>
+            <Link className='nav-link text-info' to="/services">Services</Link>
+          </li>
         </ul>
       </nav>
 
