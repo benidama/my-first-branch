@@ -4,7 +4,8 @@ import { Outlet, Link } from "react-router-dom";
 const Layout = () => {
   return (
     <>
-        <nav className='navbar navbar-expand-sm bg-success justify-content-center'>
+    <div style={{fontSize:"20px", display:"block"}}>
+        <nav className='navbar navbar-expand-sm bg-success '>
         <ul className='navbar-nav'>
           <li className='nav-item'>
             <Link className='nav-link text-info' to="/">Home</Link>
@@ -26,6 +27,7 @@ const Layout = () => {
 
       <Outlet />
   
+    </div>
     </>
   )
 }

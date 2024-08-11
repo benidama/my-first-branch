@@ -3,34 +3,32 @@ import Bootsrap from './Bootsrap'
 
 const Git = () => {
   return (
-    <div className='container text-center'>
+    <div className='container text-left'>
      
      <div className='row'>
      <div className='col-sm-5'>
       <img src="1612200918157.jpg" alt="My profile" />
-      <h5>We are learning git and githup</h5>
-    <p>Git is a version control system. <br />
+      <h5>I am a Front-end web developer</h5>
+    <p style={{fontSize:"14px"}}>I am able to buid website and web applicatins. <br />
 
-       Git helps you keep track of code changes. <br />
+       By using different technologies such as:<br />
 
-       Git is used to collaborate on code.
+       HTML, CSS, JS, Bootstrap, Figma and React.
     </p>
       </div>
 
       <div className='col-sm-7'>
-      <strong className='m-3 p-3'>
-      All about me. <br/> 
-
-      1. Go to any branch (git checkout its name)<br/>
-      2. To create a new branch(got checkout -b  its name)<br/>
-      3. Renaming branch (git branch -m new name)<br/>
-      4. Deleting branch ( first go to main branch by git checkout main then git pull in order to save all changes. Then delete the git branch -D name of branch you want to delete)
-     </strong>
+        <h4 className='text-success text-center'>All about me.</h4>
+      <p className='mt-3' style={{fontSize:"14px"}}>  
+      I am a web developer.<br/>
+      I focus on building website's using JavaScript language, 
+      and its technologies like React. I like coding and I am very passionate about it. 
+      Whenever I have free time I dance modern and old musics, watching videos mostly those talking about technology, and business.
+      I am passionate about what I do and a big fun of delivering quality work and learning more skills.
+    </p>
      <Bootsrap/>
       </div>
-     </div>
-    
-      
+     </div>  
   </div>
   )
 }
