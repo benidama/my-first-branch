@@ -1,5 +1,6 @@
 import React from 'react'
 import Bootsrap from './Bootsrap'
+import Medias from './Medias'
 
 const Git = () => {
   return (
@@ -27,7 +28,10 @@ const Git = () => {
       I am passionate about what I do and a big fun of delivering quality work and learning more skills.
     </p>
      <Bootsrap/>
+     <br />
+     <Medias/>
       </div>
+    
      </div>  
   </div>
   )
