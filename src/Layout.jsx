@@ -4,10 +4,10 @@ import { Outlet, Link } from "react-router-dom";
 const Layout = () => {
   return (
     <>
-    <div style={{fontSize:"20px", display:"block"}}>
-        <nav className='navbar navbar-expand-sm bg-success '>
+    <div style={{fontSize:"20px"}}>
+        <nav className='navbar navbar-expand-sm bg-success'>
         <ul className='navbar-nav'>
-          <li className='nav-item'>
+          <li className='nav-item' style={{ paddingLeft:"650px"}}>
             <Link className='nav-link text-info' to="/">Home</Link>
           </li>
           <li className='nav-item'>

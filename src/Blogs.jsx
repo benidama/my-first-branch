@@ -1,9 +1,10 @@
 import React from 'react'
 import Jsfunction from './Jsfunction'
+import Bootsrap from './Bootsrap'
 
 const Blogs = () => {
   return (
-    <div>
+    <div className='container'>
         <h1 className='text-center'> About me </h1>
         
         <p className='container'>
@@ -14,6 +15,7 @@ const Blogs = () => {
         I am passionate about what I do and a big fun of delivering quality work and learning more skills
         </p>
         <Jsfunction/>
+        <Bootsrap/>
     </div>
   )
 }

@@ -1,13 +1,14 @@
 import React from 'react'
+import Medias from './Medias'
 
 const Floowus = () => {
   return (
-    <div>
-        <p className='container text-wraning'>
+    <div className='container'>
+        <p className=' text-secondary'>
           You can contact us through the following socialmedia: <br/>
-            Tel:0781984294 <br/>
-            IG:benidama
+            
         </p>
+        <Medias/>
     </div>
   )
 }

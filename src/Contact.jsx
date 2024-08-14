@@ -1,6 +1,7 @@
 import React from 'react'
 import Floowus from './Floowus'
 
+
 const Contact = () => {
   return (
     <div>
@@ -11,9 +12,8 @@ const Contact = () => {
           I'd also love to hear from you if you have any questions, are looking to network,
           or would like to chat about any projects I can help with.
         </p>
-    
-    
         <Floowus/>
+        
     </div>
   )
 }
